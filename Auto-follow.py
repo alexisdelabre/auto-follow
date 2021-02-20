@@ -50,7 +50,7 @@ def Followings_manage():
                     f"@{user.screen_name} unfollow! Avancement: {index+1}/{lenght}")
             break
         else:
-            print('Uniquement 0 ou 1. Veuillez rééssayer\n')
+            print('Uniquement 1 ou 2. Veuillez rééssayer\n')
 
     ## Methode choisie
     if methode == '1':
